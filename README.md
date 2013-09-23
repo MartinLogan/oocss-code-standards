@@ -13,13 +13,13 @@ Note: While there may be camel case classes in the markup, these are for JS inte
 ```css
 /* Good - Use dashes */
 .this-is-good {}
-```
+
 /* Bad - Don't use camel case */
 .thisIsBad {}
 
 /* Bad - don't use underscores */
 .this_is_bad {}
-
+```
 
 ### Indentation
 
