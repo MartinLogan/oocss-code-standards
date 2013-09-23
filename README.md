@@ -8,7 +8,7 @@ We've borrowed some ideas from [Idiomatic CSS](https://github.com/necolas/idioma
 
 Class names should use dashes and not use camel case.
 
-Note: While there may be camel case classes in the markup, these are for JS interaction and should not be styled agains
+Note: While there may be camel case classes in the markup, these are for JS interaction and should not be styled against.
 
 ```css
 /* Good - Use dashes */
