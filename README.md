@@ -6,18 +6,20 @@ We've borrowed some ideas from [Idiomatic CSS](https://github.com/necolas/idioma
 
 ### Class Names
 
-Class names should be camel case, with no dashes or underscores.
+Class names should use dashes and not use camel case.
+
+Note: While there may be camel case classes in the markup, these are for JS interaction and should not be styled agains
 
 ```css
-/* Good - Use camel case */
-.thisIsGood {}
+/* Good - Use dashes */
+.this-is-good {}
+```
+/* Bad - Don't use camel case */
+.thisIsBad {}
 
 /* Bad - don't use underscores */
 .this_is_bad {}
 
-/* Bad - don't use dashes */
-.this-is-bad {}
-```
 
 ### Indentation
 
